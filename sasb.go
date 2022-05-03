@@ -32,6 +32,6 @@ func main() {
 	for _, out := range output {
 		values := strings.Join(out.values, ", ")
 		label := out.name + ":"
-		fmt.Printf("%-12s %s\n", label, values)
+		fmt.Printf("%-12s [%s]\n", label, values)
 	}
 }
