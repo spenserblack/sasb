@@ -15,9 +15,9 @@ go install github.com/spenserblack/sasb
 ## Usage
 
 ```console
-$ sasb "@"
-binary:      [01000000]
-octal:       [100]
-decimal:     [64]
-hexadecimal: [40]
+$ sasb "あ"
+binary:      [11100011, 10000001, 10000010]
+octal:       [343, 201, 202]
+decimal:     [227, 129, 130]
+hexadecimal: [e3, 81, 82]
 ```
